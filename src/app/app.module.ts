@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { HelloComponent } from './hello.component';
 import { CrisisCenterComponent } from './crisis-center/crisis-center.component';
 import { HeroesComponent } from './heroes/heroes.component';
+import { HeroListComponent } from './hero-list/hero-list.component';
 
 const appRoutes: Routes = [
   {
@@ -15,7 +16,7 @@ const appRoutes: Routes = [
 
 @NgModule({
   imports:      [ BrowserModule, FormsModule ],
-  declarations: [ AppComponent, HelloComponent, CrisisCenterComponent, HeroesComponent ],
+  declarations: [ AppComponent, HelloComponent, CrisisCenterComponent, HeroesComponent, HeroListComponent ],
   bootstrap:    [ AppComponent ]
 })
 export class AppModule { }
