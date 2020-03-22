@@ -10,7 +10,8 @@ import { HeroListComponent } from './hero-list/hero-list.component';
 
 const appRoutes: Routes = [
   {
-    
+    path: 'crisis-center',
+  
   }
 ]
 
