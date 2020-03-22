@@ -5,6 +5,7 @@ import { RouterModule, Routes } from '@angular/router'
 import { AppComponent } from './app.component';
 import { HelloComponent } from './hello.component';
 import { CrisisCenterComponent } from './crisis-center/crisis-center.component';
+import { HeroesComponent } from './heroes/heroes.component';
 
 const appRoutes: Routes = [
   {
@@ -14,7 +15,7 @@ const appRoutes: Routes = [
 
 @NgModule({
   imports:      [ BrowserModule, FormsModule ],
-  declarations: [ AppComponent, HelloComponent, CrisisCenterComponent ],
+  declarations: [ AppComponent, HelloComponent, CrisisCenterComponent, HeroesComponent ],
   bootstrap:    [ AppComponent ]
 })
 export class AppModule { }
